@@ -1,0 +1,11 @@
+{
+  "name": "FantasticCyberSpectacle",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "ユメステに収録されている神曲『電脳スペクタクル』をもっと楽しく聞くシステム",
+  "content_scripts": [{
+    "matches": ["https://www.youtube.com/*"],
+    "js": ["content.js"],
+    "css": ["mystyle.css"]
+  }]
+}

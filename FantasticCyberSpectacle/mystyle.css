@@ -1,0 +1,45 @@
+.fantastic-cyber-spectacle-window{
+  position: fixed;
+  border: 2px solid black;
+  z-index: 10000;
+}
+.fantastic-cyber-spectacle-title{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 3rem;
+}
+.fantastic-cyber-spectacle-content{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: 3rem;
+  bottom: 0;
+}
+.fantastic-cyber-spectacle-content svg{
+  width: 100%;
+  height: 75%;
+}
+.fantastic-cyber-spectacle-title-text{
+  width: auto;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 3rem;
+  text-align: left;
+  margin-left: 0.5rem;
+  color: black;
+}
+.fantastic-cyber-spectacle-title-close{
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  margin-left: auto;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
